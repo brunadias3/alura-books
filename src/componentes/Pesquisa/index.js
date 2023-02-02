@@ -8,7 +8,7 @@ const PesquisaContainer = styled.section`
    color: #FFF;
    text-align: center;
    padding: 85px 0;
-   height: 470px;
+   height: 250px;
    width: 100%;
 `
 const Titulo = styled.h2`

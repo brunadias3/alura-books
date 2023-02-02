@@ -22,8 +22,8 @@ export default function OpcoesHeader() {
 
     return (
         <StyledOpcoes>
-            {textoOpcoes.map((texto) => (
-                <li className='opcao'><p>{texto}</p></li>
+            {textoOpcoes.map((texto,index) => (
+                <li key={index} className='opcao'><p>{texto}</p></li>
             ))}
         </StyledOpcoes>
     )

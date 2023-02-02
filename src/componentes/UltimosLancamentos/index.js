@@ -29,10 +29,10 @@ const NovosLivrosContainer = styled.div`
 function UltimosLancamentos() {
     return (
         <UltimosLancamentosContainer>
-            <Titulo>ULTIMOS LANCAMENTOS</Titulo>
+            <Titulo>ÚLTIMOS LANÇAMENTOS</Titulo>
             <NovosLivrosContainer>
-                { livros.map( livro => (
-                    <img src={livro.src}/>
+                { livros.map( (livro,index) => (
+                    <img key={index} src={livro.src}/>
                 ) ) }
             </NovosLivrosContainer>
         </UltimosLancamentosContainer>
